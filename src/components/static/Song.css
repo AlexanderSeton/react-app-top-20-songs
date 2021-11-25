@@ -1,47 +1,47 @@
 .list-element {
-    /* border: 1px black solid; */
-    margin: 3%;
-    margin-bottom: 2%;
-    padding: 1%;
-    display: flex;
-    flex-flow: row nowrap;
-    width: 25%;
-    justify-content: space-between;
-    font-size: 160%;
+    height: 350px;
+    width: 22.5%;
+    /* border: 2px black solid; */
+    font-size: 120%;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    text-shadow: 0 0 5px gray, 0 0 5px black;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    /* text-shadow: 0 0 5px gray, 0 0 5px black; */
     border-radius: 10%;
-    justify-content: center;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 25px 50px -12px;
+    margin: 0 auto;
+    margin-bottom: 2%;
 }
 
 .list-element:hover {
-    outline: 2px black solid;
-    transform: scale(1.2);
-    transition-delay: 100ms;
+    /* outline: 1px black solid; */
+    transform: scale(1.02);
+    transition-delay: 150ms;
+    box-shadow: rgba(0, 0, 0, 2) 0px 25px 50px -12px;
 }
 
 .song-link {
     text-decoration: none;
 }
 
-.song-image {
-    width: 120%;
-    border: 1px solid black;
-    position: relative;
-    right: 10%;
-    top: 10%;
-}
-
 .list-element-data {
-}
-
-.list-element-image {
-
+    position: relative;
+    top: -5.5%;
+    /* outline: 5px red solid; */
+    height: 335px;
 }
 
 .song-ranking {
-    font-size: 200%;
+    font-size: 175%;
+}
+
+.preview-audio {
+    width: 99%;
+    /* border: 1px black solid; */
+    position: absolute;
+    bottom: 0;
+    /* padding-bottom: 0;
+    margin-bottom: 0; */
 }
