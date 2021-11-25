@@ -6,9 +6,9 @@ const Song = ({song, id}) => {
     return(
         <li key={id} className="list-element" style={{ backgroundImage: `url(${song["im:image"][2]["label"]})` }} >
             <div className="list-element-data">
-                <h2>Rank: {id + 1}</h2>
-                <p><strong>Title:</strong> {song["im:name"]["label"]}</p>
-                <p><strong>Artist:</strong> {song["im:artist"]["label"]}</p>
+                <h2 className="song-ranking">{id + 1}</h2>
+                <p><strong>Title: {song["im:name"]["label"]}</strong></p>
+                <p><strong>Artist: {song["im:artist"]["label"]}</strong></p>
                 <a href={song["link"][0]["attributes"]["href"]} target="_blank" rel="noreferrer" className="song-link"><strong>iTunes Link</strong></a>
                 <p><strong>Song Preview:</strong> </p>
                 <audio controls>

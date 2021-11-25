@@ -11,6 +11,7 @@ const SongList = ({songs}) => {
     return(
         <div>
             <h1 id="title">UK Top 20 Songs</h1>
+            <h3 id="sub-title">By iTunes</h3>
             <ul className="song-list">
                 {songItems}
             </ul>
