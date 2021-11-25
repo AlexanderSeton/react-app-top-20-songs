@@ -1,0 +1,37 @@
+.list-element {
+    /* border: 1px black solid; */
+    margin: 1%;
+    margin-bottom: 2%;
+    padding: 2%;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 25%;
+    justify-content: space-between;
+    font-size: 150%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 0 0 5px gray, 0 0 5px black;
+    border-radius: 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+.song-link {
+    text-decoration: none;
+}
+
+.song-image {
+    width: 120%;
+    border: 1px solid black;
+    position: relative;
+    right: 10%;
+    top: 10%;
+}
+
+.list-element-data {
+}
+
+.list-element-image {
+
+}

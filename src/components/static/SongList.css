@@ -1,0 +1,14 @@
+.song-list {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1%;
+    padding: 1%;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+#title {
+    text-align: center;
+    padding-top: 2%;
+    font-size: 350%;
+}
